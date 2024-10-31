@@ -24,31 +24,42 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                      More info below
+                    </button>
+                    <ul class="dropdown-menu">
+                        <!-- NEW ITEM BELOW -->
+                      <li><a class="dropdown-item" href="#">Chicago Sightseeing</a></li>
+                      <li><a class="dropdown-item" href="#">Las Angeles Sightseeing</a></li>
+                      <li><a class="dropdown-item" href="#">New York Sightseeing</a></li>
+                    </ul>
+                  </div>
             </ul>
         </nav>
         <div class="row">
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
                 <!-- Indicators/dots -->
-                <div class="carousel-indicators">
+                <div class="carousel-indicators"style="padding-left: 130px; padding-right: 130px;">
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
                   <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
                 </div>
               
                 <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+                <div class="carousel-inner col-md-3" style="padding-left: 130px; padding-right: 130px;">
+                  <div class="carousel-item active col-md-3">
                     <img src="images/la.jpeg" alt="Los Angeles" class="d-block w-100">
-                    <div class="carousel-caption"><h1>Los Angeles</h1></div>
+                    <div class="carousel-caption"><h1 style="padding-bottom: 100px;">Los Angeles</h1><p>I have never been but have been wanting to go for a while!</p></div>
                   </div>
                   <div class="carousel-item">
                     <img src="images/chicago.jpeg" alt="Chicago" class="d-block w-100">
-                    <div class="carousel-caption"><h1>Chicago</h1></div>
+                    <div class="carousel-caption"><h1 style="padding-bottom: 100px;">Chicago</h1><p>I have never been but really want to go!</p></div>
                   </div>
                   <div class="carousel-item">
                     <img src="images/ny.jpeg" alt="New York" class="d-block w-100">
-                    <div class="carousel-caption"><h1>New York</h1></div>
+                    <div class="carousel-caption" style="padding-bottom: 100px;"><h1>New York</h1><p>Ive been twice and love it there!</p></div>
                   </div>
                 </div>
               
@@ -96,7 +107,17 @@
                 <button class="btn btn-success" role="button">Do something cool with JS</button>
             </div>
         </div>
+        <div class="container p-9 m-20 border ">
+        <div class="row">
+            <!-- The Text Entries were AI generated (For filler text) All code was done by me -->
+            <div class="col-md-4"><p>At the heart of our mission lies a commitment to quality, innovation, and community. We're driven by a passion to make a positive impact through our products and services, continually pushing the boundaries of what’s possible.</p></div>
+            <div class="col-md-4"><p>Founded with a vision to transform experiences, we started small, but our passion helped us grow. Every step of our journey has been fueled by dedication, hard work, and a belief in making a difference.</p></div>
+            <div class="col-md-2"><p>Our mission is to empower individuals and communities by providing reliable, accessible solutions that address real needs. We believe in creating lasting value through quality and integrity.</p></div>
+            <div class="col-md-1"><p>We believe in simple solutions that make life better for everyone.</p></div>
+            <div class="col-md-1"><p>Empowering people through technology and expertise is at the core of what we do.</p></div>
+
+        </div>
     </div>
-    
+</div>
 </body>
 </html>
